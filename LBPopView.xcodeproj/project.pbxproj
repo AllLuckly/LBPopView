@@ -14,6 +14,12 @@
 		3238391C1B6C6EAE00FA484F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3238391B1B6C6EAE00FA484F /* Images.xcassets */; };
 		3238391F1B6C6EAE00FA484F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3238391D1B6C6EAE00FA484F /* LaunchScreen.xib */; };
 		3238392B1B6C6EAE00FA484F /* LBPopViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3238392A1B6C6EAE00FA484F /* LBPopViewTests.m */; };
+		323839351B6C6F4300FA484F /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 323839341B6C6F4300FA484F /* 1.png */; };
+		3238393B1B6C70E300FA484F /* LBPopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3238393A1B6C70E300FA484F /* LBPopView.m */; };
+		3238393D1B6C7BA700FA484F /* icon_1_@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3238393C1B6C7BA700FA484F /* icon_1_@2x.png */; };
+		323839411B6C828600FA484F /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 3238393E1B6C828600FA484F /* 3.png */; };
+		323839421B6C828600FA484F /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3238393F1B6C828600FA484F /* 2.png */; };
+		323839431B6C828600FA484F /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 323839401B6C828600FA484F /* 4.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +46,13 @@
 		323839241B6C6EAE00FA484F /* LBPopViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LBPopViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		323839291B6C6EAE00FA484F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3238392A1B6C6EAE00FA484F /* LBPopViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LBPopViewTests.m; sourceTree = "<group>"; };
+		323839341B6C6F4300FA484F /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		323839391B6C70E300FA484F /* LBPopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBPopView.h; sourceTree = "<group>"; };
+		3238393A1B6C70E300FA484F /* LBPopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBPopView.m; sourceTree = "<group>"; };
+		3238393C1B6C7BA700FA484F /* icon_1_@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_1_@2x.png"; sourceTree = "<group>"; };
+		3238393E1B6C828600FA484F /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		3238393F1B6C828600FA484F /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		323839401B6C828600FA484F /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,8 +94,15 @@
 		3238390D1B6C6EAE00FA484F /* LBPopView */ = {
 			isa = PBXGroup;
 			children = (
+				3238393E1B6C828600FA484F /* 3.png */,
+				3238393F1B6C828600FA484F /* 2.png */,
+				323839401B6C828600FA484F /* 4.png */,
+				323839341B6C6F4300FA484F /* 1.png */,
+				3238393C1B6C7BA700FA484F /* icon_1_@2x.png */,
 				323839121B6C6EAE00FA484F /* AppDelegate.h */,
 				323839131B6C6EAE00FA484F /* AppDelegate.m */,
+				323839391B6C70E300FA484F /* LBPopView.h */,
+				3238393A1B6C70E300FA484F /* LBPopView.m */,
 				323839151B6C6EAE00FA484F /* ViewController.h */,
 				323839161B6C6EAE00FA484F /* ViewController.m */,
 				323839181B6C6EAE00FA484F /* Main.storyboard */,
@@ -200,8 +220,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				3238391A1B6C6EAE00FA484F /* Main.storyboard in Resources */,
+				323839351B6C6F4300FA484F /* 1.png in Resources */,
+				323839421B6C828600FA484F /* 2.png in Resources */,
 				3238391F1B6C6EAE00FA484F /* LaunchScreen.xib in Resources */,
+				323839431B6C828600FA484F /* 4.png in Resources */,
+				323839411B6C828600FA484F /* 3.png in Resources */,
 				3238391C1B6C6EAE00FA484F /* Images.xcassets in Resources */,
+				3238393D1B6C7BA700FA484F /* icon_1_@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,6 +246,7 @@
 			files = (
 				323839171B6C6EAE00FA484F /* ViewController.m in Sources */,
 				323839141B6C6EAE00FA484F /* AppDelegate.m in Sources */,
+				3238393B1B6C70E300FA484F /* LBPopView.m in Sources */,
 				323839111B6C6EAE00FA484F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -416,6 +442,7 @@
 				323839301B6C6EAE00FA484F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		323839311B6C6EAE00FA484F /* Build configuration list for PBXNativeTarget "LBPopViewTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +451,7 @@
 				323839331B6C6EAE00FA484F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
